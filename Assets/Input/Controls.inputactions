@@ -1,0 +1,76 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "InGame",
+            "id": "b5cbaf55-0b85-4eb2-b213-7b44646b7915",
+            "actions": [
+                {
+                    "name": "MousePosition",
+                    "type": "PassThrough",
+                    "id": "0e16ea7b-4771-476e-9434-b2c702477d3d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Mouse",
+                    "type": "PassThrough",
+                    "id": "19b49c51-ff9b-4aed-97ac-1792f678b6fb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e8fba3b6-2d68-4da7-a367-3639608bdef0",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3082eb6e-ead4-4ced-8cfd-22ba62636de6",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "63cbe7c6-d3f0-440c-a3ed-40f09c7b904d",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "921a1e5c-11ce-4031-8666-46088e869fdd",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
